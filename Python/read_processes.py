@@ -1,7 +1,7 @@
 import csv
 
 def read_processes():
-    filename = "processes.csv"
+    filename = "Python/processes.csv"
     processes = []
     with open(filename, "r") as csvFile:
         csv_reader = csv.reader(csvFile)
